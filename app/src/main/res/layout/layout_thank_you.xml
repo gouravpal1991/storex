@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/complete_msg_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_bg"
+            android:drawableLeft="@drawable/ic_done_white_48dp"
+            android:padding="@dimen/margin_top_10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:text="@string/complete_thank_you"
+            android:textSize="@dimen/thank_you_text_size" />
+
+
+        <TextView
+            style="@style/MediumTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:gravity="center"
+            android:text="@string/complete_msg"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            style="@style/LargeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:gravity="center"
+            android:text="C467998X6"
+            android:background="@drawable/shaded_bg"
+            android:padding="@dimen/complete_order_id_margin_vertical"/>
+    </LinearLayout>
+
+
+    <include layout="@layout/layout_rl_sperator" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button
+        style="@style/DarkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_margin_top"
+        android:text="@string/complete_back_to_shop"
+        android:paddingLeft="@dimen/button_padding_left"
+        android:paddingRight="@dimen/button_padding_right"
+        android:id="@+id/button" />
+</LinearLayout>
+</LinearLayout>

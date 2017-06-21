@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F2F2F2</color>
+    <color name="colorPrimaryDark">#efaf61</color>
+    <color name="colorAccent">#6c6c6c</color>
+    <color name="seperator">#bebebe</color>
+    <color name="white">#ffffff</color>
+
+    <color name="title_bg">#EFB961</color>
+
+    <color name="button_start_color">#EFB961</color>
+    <color name="button_end_color">#efaf61</color>
+    <color name="button_border_color">#edad59</color>
+    <color name="social_icon_fb_bg">#48659F</color>
+    <color name="social_icon_gplus_bg">#DD4A3F</color>
+    <color name="list_item_discount">#3E3E3E</color>
+    <color name="list_item_product_type">#B0D59F</color>
+
+    <color name="dark_button_start_color">#717171</color>
+    <color name="dark_button_end_color">#505050</color>
+    <color name="dark_button_border_color">#595959</color>
+
+    <color name="light_gray">#d7d7d7</color>
+    <color name="progress_bar_bg">#40000000</color>
+</resources>

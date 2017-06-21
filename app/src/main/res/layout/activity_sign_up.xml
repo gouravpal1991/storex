@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_pre_login_toolbar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/lin_signup_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical"
+                    android:padding="@dimen/outer_body_padding">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/edt_full_name"
+                            style="@style/NormalEditText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/edt_margin"
+                            android:layout_weight="1"
+                            android:hint="@string/signup_firstname"
+                            android:inputType="text" />
+
+                        <EditText
+                            android:id="@+id/edt_last_name"
+                            style="@style/NormalEditText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/edt_margin"
+                            android:layout_weight="1"
+                            android:hint="@string/signup_lastname"
+                            android:inputType="text"
+                            android:visibility="gone"/>
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/edt_signup_email"
+                        style="@style/NormalEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/signup_email"
+                        android:inputType="textEmailAddress" />
+
+
+                    <EditText
+                        android:id="@+id/edt_signup_password"
+                        style="@style/NormalEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/edt_margin"
+                        android:hint="@string/login_password"
+                        android:inputType="textPassword" />
+
+
+                    <EditText
+                        android:id="@+id/edt_signup_contact"
+                        style="@style/NormalEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/signup_phone"
+                        android:inputType="number" />
+
+
+                    <!--<TextView-->
+                    <!--android:id="@+id/edt_signup_dob"-->
+                    <!--style="@style/NormalEditText"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:drawableRight="@drawable/ic_date_range_black_24dp"-->
+                    <!--android:enabled="true"-->
+                    <!--android:focusable="false"-->
+                    <!--android:hint="@string/signup_dob" />-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:padding="@dimen/edit_text_padding"
+                            android:text="@string/signup_select_gender"
+                            android:textAllCaps="true" />
+
+                        <RadioGroup
+                            android:id="@+id/rg_signup_gender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/rb_signup_male"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Male" />
+
+                            <RadioButton
+                                android:id="@+id/rb_signup_female"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/padding_left"
+                                android:text="Female" />
+                        </RadioGroup>
+                    </LinearLayout>
+
+                    <include layout="@layout/layout_seperator" />
+
+                    <EditText
+                        android:id="@+id/edt_signup_referral"
+                        style="@style/NormalEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/signup_referral"
+                        android:inputType="text" />
+                    <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <CheckBox
+                        android:id="@+id/chk_sign_up_terms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="@dimen/checkbox_margin"
+                        android:text="@string/signup_agree_terms"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorAccent" />
+
+                    <!--</RelativeLayout>-->
+
+                    <Button
+                        android:id="@+id/btn_sign_up"
+                        style="@style/NormalButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/button_margin_top"
+                        android:layout_marginTop="@dimen/button_margin_top"
+                        android:text="@string/signup_sign_up" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_signup_seperator"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lin_signup_details"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="-5dp">
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/seperator_height"
+                        android:layout_centerInParent="true"
+                        android:background="@color/seperator" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/circle_bg" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_signup_seperator"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/forgot_password_margin_top"
+                    android:text="@string/signup_already_a_member_sign_in"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <include layout="@layout/layout_progress" />
+
+</RelativeLayout>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/lin_signup_details"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/outer_body_padding">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_full_name"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/signup_firstname" />
+
+                    <EditText
+                        android:id="@+id/edt_last_name"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/signup_lastname" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edt_signup_password"
+                    style="@style/NormalEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/adress_address_line_1" />
+
+                <EditText
+                    android:id="@+id/edt_signup_re_password"
+                    style="@style/NormalEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/adress_address_line_2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_address_city"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/address_city" />
+
+                    <EditText
+                        android:id="@+id/edt_address_state"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/address_state" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edt_address_zipcode"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/address_zip_code" />
+
+                    <EditText
+                        android:id="@+id/edt_address_country"
+                        style="@style/NormalEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/edt_margin"
+                        android:layout_weight="1"
+                        android:hint="@string/address_country" />
+                </LinearLayout>
+
+
+
+                <Button
+                    style="@style/NormalButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/button_margin_top"
+                    android:layout_marginTop="@dimen/button_margin_top"
+                    android:text="@string/address_save_and_continue" />
+
+                <Button
+                    style="@style/DarkButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/button_margin_top"
+                    android:text="@string/address_select_from_saved" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

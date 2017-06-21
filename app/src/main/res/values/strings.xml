@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- login strings-->
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_forgot_password">Forgot password?</string>
+    <string name="login_sign_in_option_msg">or, sign in using social networks</string>
+    <string name="login_fb">{fa-facebook}</string>
+    <string name="login_gplus">{fa-google-plus}</string>
+    <string name="login_not_a_member_sign_up">Not a member? Sign Up</string>
+
+    <!--sign up strings -->
+    <string name="signup_firstname">Full Name</string>
+    <string name="signup_lastname">Last Name</string>
+    <string name="signup_re_password">Retype Password</string>
+    <string name="signup_dob">Date of Birth</string>
+    <string name="signup_calendar">{fa-calendar}</string>
+    <string name="signup_select_gender">select your gender</string>
+    <string name="signup_agree_terms">i agree the terms of use</string>
+    <string name="signup_sign_up">sign up</string>
+    <string name="signup_already_a_member_sign_in">Already a member? Sign In</string>
+    <string name="reset_password_text">Enter your registered email id and we will email you a link to reset your password.</string>
+    <string name="reset_password_btn_text">Reset Password</string>
+    <string name="dummy_amount">\u20B9120</string>
+    <string name="rupees">\u20B9</string>
+    <string name="address_save_and_continue">Save and continue</string>
+    <string name="address_select_from_saved">Saved addresses</string>
+    <string name="adress_address_line_1">Address Line 1</string>
+    <string name="adress_address_line_2">Address Line 2</string>
+    <string name="address_city">City</string>
+    <string name="address_state">State</string>
+    <string name="address_zip_code">Zip Code</string>
+    <string name="address_country">Country</string>
+    <string name="complete_thank_you">Thank you</string>
+    <string name="complete_msg">We\'ve sent you an email with all the details of your order. You can track your shipment with the order id below.</string>
+    <string name="complete_back_to_shop">Back to shop</string>
+    <string name="no_items_in_bag">You have no items in your shopping bag.</string>
+    <string name="no_item_shop_now">Shop now</string>
+    <string name="order_id">order id</string>
+    <string name="order_amount">Amount</string>
+    <string name="order_items">Items</string>
+    <string name="order_placed_on">Placed on Thursday</string>
+    <string name="order_in_progress">In progess</string>
+    <string name="order_view_details">View detail</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_phone">Contact No</string>
+    <string name="signup_referral">Referral Code (Optional)</string>
+    <string name="basic_info_contact_no">Contact Number</string>
+    <string name="basic_info_continue">Continue</string>
+    <string name="basic_info_full_name">Full Name</string>
+</resources>

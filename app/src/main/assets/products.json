@@ -1,0 +1,87 @@
+{
+  "products": [
+    {
+      "product_id": "1",
+      "product_category": "jacket",
+      "product_code": "112090B",
+      "title": "Men Ultralight Down Jacket",
+      "color": "black",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/51rspNvPgqL._AC_US160_.jpg",
+      "isDiscountAvailable": true,
+      "discount_in_percent": 10,
+      "product_amount": 1000,
+      "product_amount_after_discount": 900,
+      "product_type": "new"
+    },
+    {
+      "product_id": "2",
+      "product_category": "jacket",
+      "product_code": "112090C",
+      "title": "Men Ultralight Down Parka",
+      "color": "dark brown",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/51ApcHRgGiL._AC_US160_.jpg",
+      "isDiscountAvailable": true,
+      "discount_in_percent": 35,
+      "product_amount": 1000,
+      "product_amount_after_discount": 650,
+      "product_type": "sale"
+    },
+    {
+      "product_id": "3",
+      "product_category": "jeans",
+      "product_code": "112090D",
+      "title": "Urbano Fashion Black Slim Fit Stretch Jeans",
+      "color": "black",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/31MSAt3R1mL._AC_UL260_SR200,260_FMwebp_QL70_.jpg",
+      "isDiscountAvailable": false,
+      "discount_in_percent": 0,
+      "product_amount": 1000,
+      "product_amount_after_discount": 0,
+      "product_type": "new"
+    },{
+      "product_id": "1",
+      "product_category": "jacket",
+      "product_code": "112090B",
+      "title": "Men Ultralight Down Jacket",
+      "color": "black",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/51rspNvPgqL._AC_US160_.jpg",
+      "isDiscountAvailable": true,
+      "discount_in_percent": 10,
+      "product_amount": 1000,
+      "product_amount_after_discount": 900,
+      "product_type": "new"
+    },
+    {
+      "product_id": "2",
+      "product_category": "jacket",
+      "product_code": "112090C",
+      "title": "Men Ultralight Down Parka",
+      "color": "dark brown",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/51ApcHRgGiL._AC_US160_.jpg",
+      "isDiscountAvailable": true,
+      "discount_in_percent": 35,
+      "product_amount": 1000,
+      "product_amount_after_discount": 650,
+      "product_type": "sale"
+    },
+    {
+      "product_id": "3",
+      "product_category": "jeans",
+      "product_code": "112090D",
+      "title": "Urbano Fashion Black Slim Fit Stretch Jeans",
+      "color": "black",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image_url": "http://ecx.images-amazon.com/images/I/31MSAt3R1mL._AC_UL260_SR200,260_FMwebp_QL70_.jpg",
+      "isDiscountAvailable": false,
+      "discount_in_percent": 0,
+      "product_amount": 1000,
+      "product_amount_after_discount": 0,
+      "product_type": "new"
+    }
+  ]
+}

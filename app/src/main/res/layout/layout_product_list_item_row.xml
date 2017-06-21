@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/img_product_list_item_thumb"
+        android:layout_width="@dimen/img_product_list_item_thumb_width"
+        android:layout_height="@dimen/img_product_list_item_thumb_height"
+        android:scaleType="fitCenter"
+        tools:src="@mipmap/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/img_product_list_item_thumb"
+        android:padding="@dimen/outer_body_padding">
+
+        <TextView
+            android:id="@+id/txt_product_list_item_name"
+            style="@style/SmallTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Men Ultralight Down Jacket" />
+
+        <TextView
+            android:id="@+id/txt_product_list_item_amount"
+            style="@style/SmallTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_product_list_item_name"
+            android:layout_marginTop="@dimen/margin_top_10dp"
+            tools:text="@string/dummy_amount" />
+
+        <TextView
+            android:id="@+id/txt_product_list_item_discounted_amount"
+            style="@style/SmallTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_product_list_item_name"
+            android:layout_marginLeft="@dimen/button_margin_top"
+            android:layout_marginTop="@dimen/margin_top_10dp"
+            android:layout_toRightOf="@+id/txt_product_list_item_amount"
+            tools:text="700" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/lin_product_list_item_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_product_list_item_thumb"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/txt_product_list_item_discount_percentage"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/list_item_discount"
+            android:textColor="@color/white"
+            tools:text="-35%"
+            android:gravity="center"
+
+            android:paddingLeft="@dimen/list_item_product_type_padding_horizontal"
+            android:paddingRight="@dimen/list_item_product_type_padding_horizontal"
+            android:paddingTop="@dimen/list_item_product_type_padding"
+            android:paddingBottom="@dimen/list_item_product_type_padding"/>
+
+        <TextView
+            style="@style/SmallTextView"
+            android:id="@+id/txt_product_list_item_type"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@color/list_item_product_type"
+            android:textColor="@color/white"
+            tools:text="sale"
+            android:gravity="center"
+            android:paddingLeft="@dimen/list_item_product_type_padding_horizontal"
+            android:paddingRight="@dimen/list_item_product_type_padding_horizontal"
+            android:paddingTop="@dimen/list_item_product_type_padding"
+            android:paddingBottom="@dimen/list_item_product_type_padding"/>
+    </LinearLayout>
+<View
+    android:layout_below="@+id/img_product_list_item_thumb"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/seperator_height"
+    android:background="@color/seperator"/>
+</RelativeLayout>

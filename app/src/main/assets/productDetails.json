@@ -1,0 +1,31 @@
+{
+  "products": [
+    {
+      "title": "Men Ultralight Down Jacket",
+      "color": "brown",
+      "size": "S,M,L,XL,XXL",
+      "thumb_image":"",
+      "product_images":[{
+        "image_url":""
+      },{
+        "image_url":""
+      },{
+        "image_url":""
+      }],
+      "material_description": "Material: Faux Pu Leather,Full Zip Closure,Color: Solid,Spot Clean,4 Front Zipped Pockets, Internal Pockets For Secure Storage",
+      "product_description": "Item with superior quality 100% genuine lambskin leather lambskin leather is the soft, thin, most supple skin. A buttery texture and finely grained. Stretches well and tends to reshape after wearing - has a type of memory. Drapes well, flows, and has good movement - very form fitting. Higher-end leather-wear. Classy and more fashionable look. resolutions.",
+      "product_details":[{
+        "Item Weight":"399g",
+        "Item part number":"KRY-LEATHER-JACKET-BROWN",
+        "ASIN":"B01MZ23GVK",
+        "Average Customer Review":3.5
+      }]
+    },
+    {
+      "title": "My Name is Abu Salem",
+      "author": "Hussain Zaidi",
+      "read": false,
+      "genre": "romantic"
+    }
+  ]
+}

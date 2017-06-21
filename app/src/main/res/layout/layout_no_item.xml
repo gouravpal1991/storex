@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/outer_body_padding_large">
+
+    <TextView
+        style="@style/MediumTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bordered_shaded_bg"
+        android:drawablePadding="@dimen/margin_top"
+        android:drawableTop="@drawable/ic_shopping_basket_black_24dp"
+        android:gravity="center"
+        android:padding="@dimen/complete_msg_margin"
+        android:text="@string/no_items_in_bag" />
+
+
+    <Button
+        style="@style/DarkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/button_margin_top"
+        android:text="@string/no_item_shop_now"
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingLeft="@dimen/button_padding_left"
+        android:paddingRight="@dimen/button_padding_right"
+         />
+</LinearLayout>
